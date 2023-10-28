@@ -1,7 +1,6 @@
 package ebe.P_Judakov.s.JAVABOT.controller;
 
 import ebe.P_Judakov.s.JAVABOT.domen.entity.interfaces.User;
-import ebe.P_Judakov.s.JAVABOT.repository.interfaces.UserRepository;
 import ebe.P_Judakov.s.JAVABOT.service.interfaces.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
