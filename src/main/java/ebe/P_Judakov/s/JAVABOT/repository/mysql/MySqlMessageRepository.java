@@ -9,6 +9,7 @@ import java.util.Date;
 import java.util.List;
 
 public class MySqlMessageRepository implements MessageRepository {
+
     @Override
     public List<Message> findByUser(User user) {
         return null;

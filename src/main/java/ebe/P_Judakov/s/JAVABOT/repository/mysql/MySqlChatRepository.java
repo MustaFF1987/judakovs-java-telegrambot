@@ -8,6 +8,7 @@ import ebe.P_Judakov.s.JAVABOT.repository.interfaces.ChatRepository;
 import java.util.List;
 
 public class MySqlChatRepository implements ChatRepository {
+
     @Override
     public List<Chat> findByUsers(User user) {
         return null;

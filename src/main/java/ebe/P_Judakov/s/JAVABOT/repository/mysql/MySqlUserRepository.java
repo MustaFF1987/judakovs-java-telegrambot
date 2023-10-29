@@ -7,6 +7,7 @@ import ebe.P_Judakov.s.JAVABOT.repository.interfaces.UserRepository;
 import java.util.List;
 
 public class MySqlUserRepository implements UserRepository {
+
     @Override
     public List<JpaUser> findByUsername(String username) {
         return null;
