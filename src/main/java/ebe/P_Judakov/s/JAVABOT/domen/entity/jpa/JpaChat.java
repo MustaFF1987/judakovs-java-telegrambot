@@ -7,6 +7,7 @@ import jakarta.persistence.*;
 
 import java.util.List;
 
+
 public class JpaChat implements Chat {
 
     @Entity
@@ -40,12 +41,11 @@ public class JpaChat implements Chat {
             this.type = type;
             this.users = users;
             this.messages = messages;
-
         }
 
         @Override
         public String toString() {
-            return "Chat{" +
+            return "JpaChat{" +
                     "id=" + id +
                     ", chatId=" + chatId +
                     ", type='" + type + '\'' +
@@ -109,5 +109,5 @@ public class JpaChat implements Chat {
     public String getType() {
         return null;
     }
-
 }
+
